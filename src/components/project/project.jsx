@@ -9,7 +9,7 @@ export const Project = () => {
     <>
       <section className="portfolio" id="projects">
         <div className="container">
-          <div className="heading">
+          <div className="heading" data-aos="fade-up">
             <h2>portfolio</h2>
             <p>
               <span>my</span> projects
@@ -23,7 +23,7 @@ export const Project = () => {
                 ({ name, skill, img, description, live_link, github }, key) => {
                   return (
                     <>
-                      <div className="box" key={key}>
+                      <div className="box" key={key} data-aos="fade-up">
                         <div className="img">
                           <img src={img} alt="img" />
                           <div className="social">

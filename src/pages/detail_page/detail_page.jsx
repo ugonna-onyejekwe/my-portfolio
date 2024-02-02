@@ -3,9 +3,13 @@ import { useParams } from "react-router-dom";
 import { project } from "../../components/info";
 import { icons } from "../../components/info";
 import { Navbar2 } from "../../components/navbar2/navbar2";
+import { useEffect} from "react";
 
 export const Details = () => {
   const { name } = useParams();
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <>
@@ -15,10 +19,10 @@ export const Details = () => {
           return (
             <div className="detail_con">
               <div className="container">
-                <div className="img">
+                <div className="img" data-aos="fade-up">
                   <img src={i.img2} alt="img" />
                 </div>
-                <div className="txt_con">
+                <div className="txt_con" data-aos="fade-up">
                   <h2>{i.name}</h2>
 
                   <h3>description</h3>

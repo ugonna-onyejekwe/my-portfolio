@@ -31,14 +31,14 @@ export const Contact = () => {
     <>
       <section className="contact" id="contact">
         <div className="container">
-          <div className="heading">
+          <div className="heading" data-aos="fade-up">
             <h2>contact me</h2>
             <p>
               <span>lets</span> talk
             </p>
           </div>
           <div className="wrapper">
-            <div className="txt_con">
+            <div className="txt_con" data-aos="fade-right">
               <div className="box">
                 <div className="icon_con">{icons.location_icon}</div>
                 <div className="txt">
@@ -68,7 +68,7 @@ export const Contact = () => {
                 </div>
               </div>
             </div>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} data-aos="fade-left">
               <div className="name_section">
                 <div className="input_con">
                   <label htmlFor="name">your full name </label>

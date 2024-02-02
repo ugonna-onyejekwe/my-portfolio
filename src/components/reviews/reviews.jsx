@@ -17,7 +17,7 @@ export const Reviews = () => {
   return (
     <>
       <section className="reviews" id="testimonial">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <div className="heading">
             <h2>testimonials</h2>
             <p>

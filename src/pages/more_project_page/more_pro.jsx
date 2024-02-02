@@ -4,8 +4,13 @@ import { icons } from "../../components/info";
 import { Link } from "react-router-dom";
 import shape from "../../assets/shape-1.png";
 import { Navbar2 } from "../../components/navbar2/navbar2";
+import { useEffect } from "react";
+
 
 export const More_pro = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Navbar2 />
@@ -15,7 +20,7 @@ export const More_pro = () => {
             ({ name, skill, img, description, live_link, github }, key) => {
               return (
                 <>
-                  <div className="box" key={key}>
+                  <div className="box" key={key} data-aos="fade-up">
                     <div className="img">
                       <img src={img} alt="img" />
                       <div className="social">
