@@ -20,9 +20,7 @@
   h1 {
     font-size: 50px;
     text-transform: uppercase;
-   /* text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%),
-      2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%),
-      5px 5px rgba(0 0% 0% / 20%);*/
+
     text-shadow: 2px 2px var(--shadow2), -2px 2px var(--shadow2),
       2px -2px var(--shadow2), -2px -2px var(--shadow2),
        5px 5px rgba(0 0% 0% / 20%)
@@ -159,8 +157,21 @@
       }
 
       h1 {
-        font-size: 30px;
-      }
+    font-size: 30px;
+
+    text-shadow: 1.5px 1.5px var(--shadow2), -1.5px 1.5px var(--shadow2),
+      1.5px -1.5px var(--shadow2), -1.5px -1.5px var(--shadow2),
+       3px 3px rgba(0 0% 0% / 20%)
+      ;
+   
+     
+
+    span {
+       text-shadow: 1.5px 1.5px var(--shadow3), -1.5px 1.5px var(--shadow3),
+      1.5px -1.5px var(--shadow3), -1.5px -1.5px var(--shadow3),
+       3px 3px rgba(0 0% 0% / 20%);
+    }
+  }
     }
   }
 }
