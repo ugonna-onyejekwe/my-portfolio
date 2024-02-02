@@ -7,7 +7,7 @@ export const Resume = () => {
   return (
     <>
       <section className="resume" id="resume">
-        <div className="heading" data-aos="fade-up">
+        <div className="heading" >
           <h2>resume</h2>
           <p>
             <span>my</span> story
@@ -15,7 +15,7 @@ export const Resume = () => {
         </div>
 
         <div className="wrapper container">
-          <div className="box_con" data-aos="fade-up">
+          <div className="box_con">
             <h3>education</h3>
             {education.map(({ institute, program, date, description }, key) => {
               return (
@@ -29,7 +29,7 @@ export const Resume = () => {
               );
             })}
           </div>
-          <div className="box_con" data-aos="fade-up">
+          <div className="box_con" >
             <h3>experience</h3>
             {experience.map(({ company, position, date, description }, key) => {
               return (

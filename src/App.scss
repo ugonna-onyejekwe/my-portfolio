@@ -76,7 +76,8 @@ html {
 .container {
   max-width: 1200px;
   margin: 0 auto;
- overflow-x: hidden;
+height: fit-content;
+
 }
 
 button {

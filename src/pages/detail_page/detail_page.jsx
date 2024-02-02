@@ -19,10 +19,10 @@ export const Details = () => {
           return (
             <div className="detail_con">
               <div className="container">
-                <div className="img" data-aos="fade-up">
+                <div className="img" >
                   <img src={i.img2} alt="img" />
                 </div>
-                <div className="txt_con" data-aos="fade-up">
+                <div className="txt_con" >
                   <h2>{i.name}</h2>
 
                   <h3>description</h3>

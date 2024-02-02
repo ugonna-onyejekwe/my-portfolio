@@ -20,7 +20,7 @@ export const More_pro = () => {
             ({ name, skill, img, description, live_link, github }, key) => {
               return (
                 <>
-                  <div className="box" key={key} data-aos="fade-up">
+                  <div className="box" key={key} >
                     <div className="img">
                       <img src={img} alt="img" />
                       <div className="social">

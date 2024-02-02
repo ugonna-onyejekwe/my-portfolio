@@ -7,13 +7,13 @@ export const Home = () => {
     <>
       <div className="home " id="home">
         <div className="container">
-          <h3 className="subtitle" data-aos="fade-up">
+          <h3 className="subtitle" >
             hello, <span>my name is</span>
           </h3>
-          <h1 data-aos="fade-up">
+          <h1>
             <span>ugonna</span> onyejekwe
           </h1>
-          <p className="job" data-aos="fade-up">
+          <p className="job" >
             i am a <span>frontend develepor</span>
           </p>
 
@@ -21,7 +21,7 @@ export const Home = () => {
             <img src={profile_img} alt="profile pics" />
           </div>
 
-          <p className="txt" data-aos="fade-up">
+          <p className="txt" >
             Passionate frontend developer with a flair for crafting visually
             stunning and user-centric web experiences. Proficient in turning
             design concepts into seamless, responsive code. Dedicated to staying
@@ -32,28 +32,28 @@ export const Home = () => {
             <a
               href="https://github.com/ugonna-onyejekwe"
               target="_blank"
-              data-aos="fade-up"
+             
             >
               {icons.github}
             </a>
             <a
               href="https://x.com/ugonna013308?t=AYJuNfNV5YOL-BUPw44NBg&s=09"
               target="_blank"
-              data-aos="fade-up"
+            
             >
               {icons.x}
             </a>
             <a
               href="https://www.linkedin.com/in/ugonna-onyejekwe-28b361289/"
               target="_blank"
-              data-aos="fade-up"
+              
             >
               {icons.linkedin}
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=61555629357469"
               target="_blank"
-              data-aos="fade-up"
+           
             >
               {icons.facebook}
             </a>

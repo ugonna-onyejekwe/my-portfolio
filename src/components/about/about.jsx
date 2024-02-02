@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <section className="about" id="about">
       <div className="container">
-        <div className="heading" data-aos="fade-up">
+        <div className="heading" >
           <h2>about me</h2>
           <p className="subtitle">
             <span>my</span> introduction
@@ -16,11 +16,11 @@ export const About = () => {
         </div>
 
         <div className="wrapper">
-          <div className="img" data-aos="fade-right">
+          <div className="img">
             <img src={profile_img} alt="" />
           </div>
 
-          <div className="txt_con" data-aos="fade-left">
+          <div className="txt_con" >
             <div className="box_con">
               <div className="box">
                 <span>{icons.experience_icon}</span>

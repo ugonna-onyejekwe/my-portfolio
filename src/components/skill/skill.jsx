@@ -6,13 +6,13 @@ export const Skill = () => {
     <>
       <div className="skill_container" id="skills">
         <div className="container">
-          <div className="heading" data-aos="fade-up">
+          <div className="heading" >
             <h2>professional skills</h2>
             <p>
               <span>my</span> skills
             </p>
           </div>
-          <div className="wrapper" data-aos="fade-up">
+          <div className="wrapper" >
             {skills.map((i, key) => {
               return (
                 <div className="box" key={key}>
