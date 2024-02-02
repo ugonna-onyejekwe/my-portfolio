@@ -20,13 +20,21 @@
   h1 {
     font-size: 50px;
     text-transform: uppercase;
-    text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%),
+   /* text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%),
       2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%),
-      5px 5px rgba(0 0% 0% / 20%);
-    
+      5px 5px rgba(0 0% 0% / 20%);*/
+    text-shadow: 2px 2px var(--shadow2), -2px 2px var(--shadow2),
+      2px -2px var(--shadow2), -2px -2px var(--shadow2),
+       5px 5px rgba(0 0% 0% / 20%)
+      ;
+   
+     
 
     span {
       color: var(--main-color) !important;
+       text-shadow: 2px 2px var(--shadow3), -2px 2px var(--shadow3),
+      2px -2px var(--shadow3), -2px -2px var(--shadow3),
+       5px 5px rgba(0 0% 0% / 20%);
     }
   }
 
