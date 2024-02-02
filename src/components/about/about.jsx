@@ -1,6 +1,7 @@
 import "./about.scss";
 import profile_img from "../../assets/profile_image.jpeg";
 import shape1 from "../../assets/shape-1.png";
+import my_resume from "../../assets/my resume.pdf";
 import { icons } from "../info";
 
 export const About = () => {
@@ -48,9 +49,11 @@ export const About = () => {
               Always eager to tackle new challenges and push the boundaries of
               what's possible in the ever-evolving realm of web development.
             </p>
-            <button>
-              download cv <span>{icons.cv_icon}</span>
-            </button>
+            <a href={my_resume} download>
+              <button>
+                download cv <span>{icons.cv_icon}</span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
