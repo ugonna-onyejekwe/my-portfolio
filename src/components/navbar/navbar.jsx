@@ -1,12 +1,14 @@
 import "./navbar.scss";
 import { icons } from "../info";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate} from "react-router-dom";
 
 export const Navbar = () => {
   const [activate_menu, setActivate_menu] = useState(false);
   const [active_theme, setActive_theme] = useState(false);
   const [theme, setTheme] = useState("light-theme");
+  const location = useLocation()
+  const navigate = useNavigate();
 
   const deactivate_menu = () => {
     setActivate_menu(!activate_menu);
@@ -37,9 +39,18 @@ export const Navbar = () => {
               <span>{icons.dark_theme_icon}</span>
               <span>{icons.light_theme_icon}</span>
             </div>
+
+            <div className="btn">
+              {location.pathname !== "/" ? 
+                 <div className="back_arrow" onClick={() => navigate(-1)}>
+            {icons.back_arrow}
+                </div> :
+              
             <div className="menu" onClick={deactivate_menu}>
               {icons.menu_icon}
             </div>
+            }
+           </div>
           </div>
 
           <div className={activate_menu ? "navigators active" : "navigators"}>

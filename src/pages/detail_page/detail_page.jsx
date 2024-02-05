@@ -2,7 +2,7 @@ import "./detail.scss";
 import { useParams } from "react-router-dom";
 import { project } from "../../components/info";
 import { icons } from "../../components/info";
-import { Navbar2 } from "../../components/navbar2/navbar2";
+
 import { useEffect} from "react";
 
 export const Details = () => {
@@ -13,7 +13,7 @@ export const Details = () => {
 
   return (
     <>
-      <Navbar2 />
+     
       {project.map((i, key) => {
         if (i.name === name) {
           return (

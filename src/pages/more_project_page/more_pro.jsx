@@ -3,7 +3,7 @@ import { project } from "../../components/info";
 import { icons } from "../../components/info";
 import { Link } from "react-router-dom";
 import shape from "../../assets/shape-1.png";
-import { Navbar2 } from "../../components/navbar2/navbar2";
+
 import { useEffect } from "react";
 
 
@@ -13,7 +13,7 @@ export const More_pro = () => {
     }, []);
   return (
     <>
-      <Navbar2 />
+     
       <div className="more_pro container">
         <div className="project_wrapper">
           {project.map(

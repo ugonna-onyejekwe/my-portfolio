@@ -50,13 +50,7 @@ export const Home = () => {
             >
               {icons.linkedin}
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61555629357469"
-              target="_blank"
-           
-            >
-              {icons.facebook}
-            </a>
+          
           </div>
 
           <a href="#contact" >

@@ -35,7 +35,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 
 
 //image import
-import per from "../assets/profile_img2.jpg";
+
 import splendior from "../assets/splendior_sm.jpg";
 import splendior_lg from "../assets/splendior.jpg";
 import moviehub from "../assets/moviehub_sm.jpg" ;
@@ -271,18 +271,19 @@ export const education = [
 
 export const experience = [
   {
-    company: "oge enterprise",
-    position: "frontend developer | internship",
-    date: "2021 -  2022",
-    description:
-      "As a Frontend Developer at OGE Enterprise, I've honed my skills in creating visually appealing and functional interfaces. Collaborating within a dynamic team, I've successfully implemented innovative solutions and contributed to project success, gaining valuable practical insights in the process.",
-  },
-  {
     company: "best tech limited",
     position: "frontend developer | internship",
-    date: "2022 - 2023",
+    date: " 2022 -  2023",
     description:
       "During my internship as a Frontend Developer at Best Enterprise, I acquired hands-on experience in crafting responsive and user-friendly web interfaces. Collaborating with a talented team, I contributed to projects, furthering my skills in frontend development and gaining valuable insights into industry best practices.",
+  },
+
+  {
+    company: "oge enterprise",
+    position: "frontend developer | internship",
+    date: " 2023 - present",
+    description:
+      "As a Frontend Developer at OGE Enterprise, I've honed my skills in creating visually appealing and functional interfaces. Collaborating within a dynamic team, I've successfully implemented innovative solutions and contributed to project success, gaining valuable practical insights in the process.",
   },
   {
     company: "vivva solution",

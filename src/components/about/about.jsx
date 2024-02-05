@@ -25,13 +25,13 @@ export const About = () => {
               <div className="box">
                 <span>{icons.experience_icon}</span>
                 <h3>experiences</h3>
-                <p>5+ years</p>
+                <p>3+ years</p>
                 <img src={shape1} alt="shape" className="shape" />
               </div>
               <div className="box">
                 <span>{icons.projects_icon}</span>
                 <h3>completed</h3>
-                <p>48+ projects</p>
+                <p>20+ projects</p>
                 <img src={shape1} alt="shape" className="shape" />
               </div>
               <div className="box">

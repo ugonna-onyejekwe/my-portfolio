@@ -5,12 +5,12 @@ import { Reviews } from "../components/reviews/reviews";
 import { Contact } from "../components/contact/contact";
 import { Skill } from "../components/skill/skill";
 import { Resume } from "../components/resume/resume";
-import { Navbar } from "../components/navbar/navbar";
+
 
 export const Home_page = () => {
   return (
     <>
-      <Navbar />
+  
       <Home />
       <About />
       <Skill />
