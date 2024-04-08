@@ -32,26 +32,35 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { GoPlus } from "react-icons/go";
 import { HiMiniMinusSmall } from "react-icons/hi2";
 import { FaArrowLeft } from "react-icons/fa6";
-
+import { TbBrandNextjs } from "react-icons/tb";
 
 //image import
 
 import splendior from "../assets/splendior_sm.jpg";
 import splendior_lg from "../assets/splendior.jpg";
-import moviehub from "../assets/moviehub_sm.jpg" ;
-import moviehub_lg from "../assets/moviehub.jpg"
-import activelearn from "../assets/activelearn_sm.jpg"
-import activelearn_lg from "../assets/activelearn.jpg"
+import moviehub from "../assets/moviehub_sm.jpg";
+import moviehub_lg from "../assets/moviehub.jpg";
+import activelearn from "../assets/activelearn_sm.jpg";
+import activelearn_lg from "../assets/activelearn.jpg";
+import linkedin from "../assets/linkedin_sm.jpg";
+import linkedin_lg from "../assets/linkedin.png";
+import novacart_lg from "../assets/novacart.png";
+import novacart from "../assets/novacart_sm.jpg";
+import loopstudio_lg from "../assets/loopstudio.png";
+import loopstudio from "../assets/loopstudio_sm.png";
+import blogr_lg from "../assets/blogr.png";
+import blogr from "../assets/blogr_sm.png";
+import indiebrew_lg from "../assets/indiebrew.png";
+import indiebrew from "../assets/indiebrew_sm.png";
 
-import gym from "../assets/gym_sm.jpg"
-import gym_lg from "../assets/gym.jpg"
+import gym from "../assets/gym_sm.jpg";
+import gym_lg from "../assets/gym.jpg";
 
-import space from "../assets/space_sm.jpg"
-import space_lg from "../assets/space.jpg"
+import space from "../assets/space_sm.jpg";
+import space_lg from "../assets/space.jpg";
 
-import portfolio from "../assets/portfolio_sm.jpg"
-import portfolio_lg from "../assets/portfolio.jpg"
-
+import portfolio from "../assets/portfolio_sm.jpg";
+import portfolio_lg from "../assets/portfolio.jpg";
 
 import client1 from "../assets/client1.jpg";
 import client2 from "../assets/client2.jpg";
@@ -81,7 +90,7 @@ export const icons = {
   close_icon: <MdClose className="icon" />,
   plus_icon: <GoPlus className="icon" />,
   minus_icon: <HiMiniMinusSmall className="icon" />,
-  back_arrow: <FaArrowLeft className="icon"/>,
+  back_arrow: <FaArrowLeft className="icon" />,
 };
 
 export const skills = [
@@ -106,12 +115,16 @@ export const skills = [
     name: "reactjs",
   },
   {
+    icon: <TbBrandNextjs />,
+    name: "nextjs",
+  },
+  {
     icon: <TbBrandRedux />,
     name: "redux",
   },
   {
     icon: <TbApi />,
-    name: "api",
+    name: "restful api",
   },
   {
     icon: <SiTypescript />,
@@ -121,14 +134,50 @@ export const skills = [
     icon: <FaGithub />,
     name: "github",
   },
-
-  {
-    icon: <IoIosGitBranch />,
-    name: "version control",
-  },
 ];
 
 export const project = [
+  {
+    name: "novacart",
+    skill: ["reactjs", "sass"],
+    description:
+      "Novacart is an innovative e-commerce platform designed to provide users with a seamless and enjoyable shopping experience. Built with React and SCSS, Novacart offers a modern and intuitive interface that caters to the needs of both customers and sellers. With its user-friendly design and robust features, Novacart aims to revolutionize online shopping by offering a diverse range of products and services. ",
+    live_link: "https://novacart.vercel.app/",
+    github: "https://github.com/ugonna-onyejekwe/Novacart",
+    img: novacart,
+    img2: novacart_lg,
+    key_features: [
+      "Product Listings",
+      "Product Catalog",
+      "Shopping Cart",
+      "intuitive design",
+      "responsiveness",
+      "clean code philosophy",
+      "personalized recommendation",
+      " easy navigation",
+      "Checkout Process",
+    ],
+  },
+  {
+    name: "linkedin clone",
+    skill: ["reactjs", "sass", "redux", "typescript"],
+    description:
+      "The LinkedIn clone showcased in my portfolio is a web application developed by me using React.js, Sass, TypeScript, and Redux. This project mirrors the functionality of the original LinkedIn platform, offering users the ability to create profiles, connect with professionals, and showcase their skills and experiences. With a focus on delivering a seamless user experience, I designed and implemented the clone's clean and intuitive user interface. Leveraging TypeScript for improved code maintainability and Redux for efficient state management, I ensured a robust and scalable solution. My LinkedIn clone project demonstrates my proficiency in frontend development and showcases my ability to build complex web applications using modern technologies. It serves as a testament to my skills in React.js, Sass, TypeScript, and Redux, as well as my dedication to delivering high-quality software solutions. ",
+    live_link: "https://linkedin-clone-flame-one.vercel.app/",
+    github: "https://github.com/ugonna-onyejekwe/Linkedin_clone",
+    img: linkedin,
+    img2: linkedin_lg,
+    key_features: [
+      "reactjs",
+      "User Authentication",
+      "post functionality",
+      "intuitive design",
+      "responsiveness",
+      "clean code philosophy",
+      "personalized recommendation",
+      " easy navigation",
+    ],
+  },
   {
     name: "moviehub",
     skill: ["reactjs", "api", "scss", "swiperjs"],
@@ -137,7 +186,7 @@ export const project = [
     live_link: "https://moviehub-dun.vercel.app/",
     github: "https://github.com/ugonna-onyejekwe/moviehub",
     img: moviehub,
-    img2:moviehub_lg,
+    img2: moviehub_lg,
     key_features: [
       "reactjs",
       "api",
@@ -230,7 +279,8 @@ export const project = [
     description:
       "I'm thrilled to present my recent project, a Space Tourism Website developed with HTML, CSS, and JavaScript. This visually stunning website offers an immersive and informative experience, showcasing the marvels of space travel. Features include a robust HTML structure for easy navigation, CSS for a galactic aesthetic, and JavaScript for interactivity. Users can explore space travel packages, engage with interactive content, and access educational resources. The website's responsive design ensures an optimal experience across devices, inviting users to embark on a virtual journey to the stars.",
     live_link: "https://space-tourism-multi-page-website-dun.vercel.app/",
-    github: "https://github.com/ugonna-onyejekwe/space-tourism-multi-page-website",
+    github:
+      "https://github.com/ugonna-onyejekwe/space-tourism-multi-page-website",
     img: space,
     img2: space_lg,
     key_features: [
@@ -243,15 +293,72 @@ export const project = [
       "responsive design for cross-device compatibility ",
     ],
   },
+  {
+    name: " loopstudios",
+    skill: ["html", "css", "javascript"],
+    description:
+      "LoopStudios is a dynamic and visually stunning website designed to showcase the creative work of artists, designers, and creators from around the world. Built with HTML, CSS, and JavaScript, LoopStudios offers a captivating user experience that celebrates creativity and innovation. With its sleek design, immersive animations, and intuitive navigation, LoopStudios invites visitors to explore a diverse collection of projects and discover inspiration at every turn.",
+    live_link: "https://ugonna-onyejekwe.github.io/Loopstudios-landing-page/",
+    github: "https://github.com/ugonna-onyejekwe/Loopstudios-landing-page",
+    img: loopstudio,
+    img2: loopstudio_lg,
+    key_features: [
+      "responsive html structure",
+      "css styling for visual appeal",
+      "javaScript for interactivity",
+      "project showcase",
+      "skill proficiency",
+      "responsive layout",
+      "interactive elements ",
+    ],
+  },
+  {
+    name: " blogr",
+    skill: ["html", "css", "javascript"],
+    description:
+      "Blogr is a versatile and user-friendly platform designed for bloggers and content creators to share their ideas, stories, and expertise with the world. Built with modern web technologies such as HTML, CSS, and JavaScript, Blogr offers an intuitive and customizable blogging experience that empowers users to create and publish content effortlessly. With its sleek design, robust features, and seamless user experience, Blogr is the ideal platform for individuals and businesses looking to establish an online presence and engage with their audience through compelling written conten",
+    live_link: "https://ugonna-onyejekwe.github.io/Blogr-landing-page/",
+    github: "https://github.com/ugonna-onyejekwe/Blogr-landing-page",
+    img: blogr,
+    img2: blogr_lg,
+    key_features: [
+      "responsive html structure",
+      "css styling for visual appeal",
+      "javaScript for interactivity",
+      "project showcase",
+      "skill proficiency",
+      "responsive layout",
+      "interactive elements ",
+    ],
+  },
+  {
+    name: " indieBrew",
+    skill: ["html", "css", "javascript"],
+    description:
+      "IndieBrew is a news website crafted with HTML, CSS, and JavaScript, offering readers a platform to stay informed about current events and trends. Built with a blend of modern web technologies, IndieBrew provides a user-friendly interface for accessing news articles and updates. From breaking news alerts to in-depth investigative reporting, IndieBrew leverages HTML for structure, CSS for styling, and JavaScript for interactivity, ensuring a seamless and engaging reading experience for visitors. With its commitment to independent journalism and grassroots reporting, IndieBrew delivers timely news coverage that challenges the status quo and empowers readers to explore diverse perspectives on the issues that matter most.",
+    live_link: "https://ugonna-onyejekwe.github.io/IndieBrew-Landing-Page/",
+    github: "https://github.com/ugonna-onyejekwe/IndieBrew-Landing-Page",
+    img: indiebrew,
+    img2: indiebrew_lg,
+    key_features: [
+      "responsive html structure",
+      "css styling for visual appeal",
+      "javaScript for interactivity",
+      "project showcase",
+      "skill proficiency",
+      "responsive layout",
+      "interactive elements ",
+    ],
+  },
 ];
 
 export const education = [
   {
     institute: "university of nigeria, nsukka",
-    program: "computer science",
+    program: "microbioloy",
     date: "2021 - present",
     description:
-      "Pursuing a Computer Science degree at the University of Nigeria, Nsukka, my academic journey reflects a commitment to technology and innovation. Passionate about the field, I strive for a deep understanding to drive future impact.",
+      "I am currently pursuing a Bachelor's degree in Microbiology, studying the fascinating world of microorganisms and their roles in health, industry, and the environment.",
   },
   {
     institute: "freecodecamp",
@@ -271,20 +378,20 @@ export const education = [
 
 export const experience = [
   {
+    company: "oge enterprise ",
+    position: "frontend developer | internship",
+    date: " 2023 -  present",
+    description:
+      "Designed visually engaging web interfaces using HTML5, CSS, and JavaScript, while developing scalable applications with ReactJS, Redux, and RESTful API integration. Employed error handling strategies and adopted emerging technologies like TypeScript and Next.js for efficient collaboration and innovation in frontend development.",
+  },
+  {
     company: "best tech limited",
     position: "frontend developer | internship",
     date: " 2022 -  2023",
     description:
-      "During my internship as a Frontend Developer at Best Enterprise, I acquired hands-on experience in crafting responsive and user-friendly web interfaces. Collaborating with a talented team, I contributed to projects, furthering my skills in frontend development and gaining valuable insights into industry best practices.",
+      "Led frontend development, ensuring top-notch user interfaces. Utilized HTML, CSS, and JavaScript for interactive designs. Fostered innovation and addressed performance issues. Stayed updated with emerging technologies like REST API.",
   },
 
-  {
-    company: "oge enterprise",
-    position: "frontend developer | internship",
-    date: " 2023 - present",
-    description:
-      "As a Frontend Developer at OGE Enterprise, I've honed my skills in creating visually appealing and functional interfaces. Collaborating within a dynamic team, I've successfully implemented innovative solutions and contributed to project success, gaining valuable practical insights in the process.",
-  },
   {
     company: "vivva solution",
     position: "frontend developer | contract",
@@ -294,31 +401,33 @@ export const experience = [
   },
 ];
 
-export const reviews =[
-
+export const reviews = [
   {
     name: "sir cinture",
     position: "best enterprise",
-    review: "Ugonna: a standout frontend developer, turning ideas into visually stunning and functional websites with precision and innovation.",
-    img:client1,
+    review:
+      "Ugonna: a standout frontend developer, turning ideas into visually stunning and functional websites with precision and innovation.",
+    img: client1,
   },
   {
     name: "veo miles",
     position: "full stack developer",
-    review: "This guy delivered outstanding work for us. His frontend development skills exceeded our expectations, creating a visually stunning and high-performing digital experience.",
-    img:client2,
+    review:
+      "This guy delivered outstanding work for us. His frontend development skills exceeded our expectations, creating a visually stunning and high-performing digital experience.",
+    img: client2,
   },
   {
     name: "oge jane",
     position: "CEO oge tech",
-    review: "Ugonna's frontend work impresses with tidy, efficient code. His commitment to clarity is evident in every project.",
-    img:client3,
+    review:
+      "Ugonna's frontend work impresses with tidy, efficient code. His commitment to clarity is evident in every project.",
+    img: client3,
   },
   {
     name: "jhoe victor",
     position: "frontend developer",
-    review: " Ugonna excels as a frontend developer, seamlessly crafting visually impressive and functional websites. His skill and innovation elevate every project.",
-    img:client4,
+    review:
+      " Ugonna excels as a frontend developer, seamlessly crafting visually impressive and functional websites. His skill and innovation elevate every project.",
+    img: client4,
   },
- 
-]
+];
