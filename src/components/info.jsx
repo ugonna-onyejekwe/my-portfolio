@@ -379,14 +379,14 @@ export const education = [
 export const experience = [
   {
     company: "oge enterprise ",
-    position: "frontend developer | internship",
+    position: "frontend developer ",
     date: " 2023 -  present",
     description:
       "Designed visually engaging web interfaces using HTML5, CSS, and JavaScript, while developing scalable applications with ReactJS, Redux, and RESTful API integration. Employed error handling strategies and adopted emerging technologies like TypeScript and Next.js for efficient collaboration and innovation in frontend development.",
   },
   {
     company: "best tech limited",
-    position: "frontend developer | internship",
+    position: "frontend developer ",
     date: " 2022 -  2023",
     description:
       "Led frontend development, ensuring top-notch user interfaces. Utilized HTML, CSS, and JavaScript for interactive designs. Fostered innovation and addressed performance issues. Stayed updated with emerging technologies like REST API.",
